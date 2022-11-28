@@ -8,15 +8,6 @@
 
 /* Semantic Selector(s) */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-body {
-    background-color: #d9dcd6;
-}
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,8 +45,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
-footer h5 {
-    font-size: 20px;
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #d9dcd6;
 }
 
 footer {
@@ -65,6 +61,9 @@ footer {
     text-align: center;
 }
 
+footer h5 {
+    font-size: 20px;
+}
 /* Class Selectors */
 
 .hero {
